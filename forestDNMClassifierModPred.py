@@ -1,6 +1,4 @@
-## https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2
-## https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
-## https://scikit-learn.org/0.17/auto_examples/calibration/plot_compare_calibration.html#example-calibration-plot-compare-calibration-py
+
 import pandas as pd
 from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
