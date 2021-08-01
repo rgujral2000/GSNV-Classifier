@@ -1,5 +1,5 @@
 # GSNV-Classifier
-Germline Single Nucleotide Variant classifiers:
+Description
     
 We all have about 40-100 new single nucleotide variants in our genome referred as germline variants that are not present in the genomes of our parents. Germline variants have been linked to psychiatric diseases such as Autism, Schizophrenia, & ADHD etc. when they disrupt the function of an important gene expressed in the brain. Two separate classifiers to extract the germline variants from the genomes of dad, mom, and proband (affected kid) are presented here.  First classifier is based on machine learning (ML), several different ML libraries were tested from ‘scikit-learn’ tool kit, and I found that Random Forest library yielded best results when evaluated against a ‘Gold Standard’ call set. Second independent classifier was also developed employing Neural Networks from Google’s AI library ‘TensorFlow’. 
 
