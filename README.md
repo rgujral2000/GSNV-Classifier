@@ -5,11 +5,14 @@ We all have about 40-100 new single nucleotide variants in our genome referred a
 
 
 An example of Germline variant from a VCF file is shown here.
+     
      chr3:71,021,785	  GG(Father)	 GG(Mother)	  AG(Child)
 
 ‘cleaned_published_data_matrix_training_set’ is a training data set for both ML and TensorFlow based classifiers.
 
 A small validation data set ‘smallValidationData’ is provided here to make predictions.
+
+Both the classfiers need Python 3.6 or higher version.
 
 transformingVCFFile.py transforms Haplotype caller output to a file format that will serve as validation data set can be read by both the classifiers.
 
