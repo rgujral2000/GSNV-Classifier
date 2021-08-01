@@ -14,7 +14,7 @@ A small validation data set ‘smallValidationData’ is provided here to make p
 
 Both the classfiers need Python 3.6 or higher version.
 
-transformingVCFFile.py transforms Haplotype caller output to a file format that will serve as validation data set can be read by both the classifiers.
+transformingVCFFile.py transforms VQS recalibrated SNV Haplotype caller output to a file format that will serve as validation data set can be read by both the classifiers.
 
 forestDNMClassifierModPred.py is ML based classifier and for it to work training data set and validation data sets need to be provided. User will need to update two fields in the code ‘dataframe’ and ‘pred_dataframe’.
 
