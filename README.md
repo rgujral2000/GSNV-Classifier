@@ -18,4 +18,4 @@ transformingVCFFile.py transforms VQS recalibrated SNV Haplotype caller output t
 
 forestDNMClassifierModPred.py is ML based classifier and for it to work training data set and validation data sets need to be provided. User will need to update two fields in the code ‘dataframe’ and ‘pred_dataframe’.
 
-AI based classifier ‘tensorflowDNMFinal.py’ also needs training data set and validation data sets. Two fields ‘TT_Data’ and ‘predData’ are file paths for training and validation data respectively and user will need to update the fields in the code.
+AI based classifier ‘tensorflowDNMFinal.py’ also needs training data set and validation data sets. Two fields ‘TT_Data’ and ‘predData’ are file paths for training and validation data respectively and user will need to update these two fields in the code.
